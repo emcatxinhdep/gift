@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Su Iu Chồng Nhứt ❤️✨</title>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      background-color: #050205;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      font-family: 'Quicksand', sans-serif;
+      position: relative;
+    }
+
+    /* Chữ lớn phát sáng ở giữa màn hình */
+    .center-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 20;
+      width: 92%;
+      pointer-events: none;
+    }
+
+    .main-text {
+      font-size: 36px;
+      font-weight: 700;
+      color: #ffb3c6;
+      text-shadow: 
+        0 0 10px #ff2a6d,
+        0 0 25px #ff2a6d,
+        0 0 45px #ff0055;
+      animation: pulseBeat 1.3s infinite ease-in-out;
+    }
+
+    .sub-text {
+      margin-top: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffe5ec;
+      text-shadow: 0 0 12px #ff4d79;
+    }
+
+    @keyframes pulseBeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Hiệu ứng mưa chữ rơi bằng CSS thuần */
+    .falling-word {
+      position: fixed;
+      top: -60px;
+      color: #ff85a2;
+      font-weight: 700;
+      white-space: nowrap;
+      text-shadow: 0 0 12px #ff2a6d, 0 0 20px #ff0055;
+      pointer-events: none;
+      z-index: 10;
+      animation: fallDown linear infinite;
+    }
+
+    @keyframes fallDown {
+      0% {
+        transform: translateY(-60px);
+        opacity: 0;
+      }
+      15% {
+        opacity: 1;
+      }
+      85% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(110vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- KHUNG CHỮ CHÍNH Ở GIỮA -->
+  <div class="center-box">
+    <div class="main-text">💖 Su iu chồng nhứt 💖</div>
+    <div class="sub-text">Thương chồng nhất trên đời 🎀</div>
+  </div>
+
+  <!-- CÁC DÒNG CHỮ RƠI PHÁT SÁNG -->
+  <div class="falling-word" style="left: 5%; font-size: 17px; animation-duration: 5.5s; animation-delay: 0s;">Su iu chồng nhứt ❤️</div>
+  <div class="falling-word" style="left: 22%; font-size: 19px; animation-duration: 6.8s; animation-delay: 1.2s;">Thương chồng nhìu lắm 🎀</div>
+  <div class="falling-word" style="left: 45%; font-size: 16px; animation-duration: 5.2s; animation-delay: 2.5s;">Chồng yêu của Su 🌷</div>
+  <div class="falling-word" style="left: 65%; font-size: 20px; animation-duration: 6.2s; animation-delay: 0.6s;">Mãi bên nhau chồng nhé ✨</div>
+  <div class="falling-word" style="left: 12%; font-size: 18px; animation-duration: 7.0s; animation-delay: 3.1s;">Iu chồng 3000 🐰💕</div>
+  <div class="falling-word" style="left: 52%; font-size: 17px; animation-duration: 5.8s; animation-delay: 1.8s;">Chúc chồng 19/11 vui vẻ 🌹</div>
+  <div class="falling-word" style="left: 30%; font-size: 19px; animation-duration: 6.5s; animation-delay: 4.0s;">Su thương chồng nhất trên đời 💖</div>
+  <div class="falling-word" style="left: 72%; font-size: 16px; animation-duration: 5.4s; animation-delay: 2.2s;">Su iu chồng nhứt ❤️</div>
+  <div class="falling-word" style="left: 8%; font-size: 18px; animation-duration: 6.0s; animation-delay: 4.5s;">Chồng yêu của Su 🌷</div>
+  <div class="falling-word" style="left: 40%; font-size: 20px; animation-duration: 7.2s; animation-delay: 0.3s;">Iu chồng nhứt 💖</div>
+
+</body>
+</html>
